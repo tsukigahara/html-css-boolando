@@ -5,6 +5,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* header */
+
 header {
     display: flex;
     align-items: center;
@@ -12,6 +14,7 @@ header {
     width: 100%;
     min-height: 50px;
     position: fixed;
+    z-index: 99;
     
 }
 
@@ -27,7 +30,7 @@ header a:hover {
 
 .header-conteiner {
     display: flex;
-    width: 80%;
+    width: 75%;
     margin: auto;
     align-items: center;
     justify-content: space-between;
@@ -39,11 +42,125 @@ header a:hover {
 .logo-image  {
     width: 100px;
     height: auto;
-    size: cover;
 }
 
 .menu-icons img {
     width: 20px;
     height: auto;
     margin: 0px 5px;
+}
+
+/* main */
+
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    min-height: 400px;
+
+
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 2%;
+    position: relative;
+    
+}
+
+.favorite {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.favorite:hover {
+    filter:invert(100%);
+    cursor: pointer;
+}
+
+.favorite img {
+    width: 100%;
+    height: auto;
+}
+
+
+.product-image2 {
+    width: 100%;
+    height: fit-content;
+}
+
+.product-image:hover {
+    opacity: 0;
+}
+
+.product-image {
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+}
+
+.sales {
+    background-color: red;
+}
+
+.type {
+    background-color: green;
+}
+
+.product-labels {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 35px;
+    position: absolute;
+    top: 380px;
+
+
+}
+
+.label {
+    text-align: center;
+    color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.product-brand {
+    font-size: 12px;
+    text-transform: capitalize;
+
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.product-price {
+    font-size: 15px;
+}
+
+.saleprice {
+    color: red;
+    font-weight: 600;
+}
+
+.listprice {
+    text-decoration: line-through;
 }
