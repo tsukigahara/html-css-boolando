@@ -164,3 +164,47 @@ main {
 .listprice {
     text-decoration: line-through;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    min-height: 100px;
+}
+
+.endbar {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.endbar-info {
+    min-width: 250px;
+}
+.company-name {
+    font-size: medium;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.endbar-link {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.share {
+    min-width: 250px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.share a img {
+    width: 20px;
+    height: auto;
+    margin: 5px;
+}
