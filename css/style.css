@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: darkorange;
+    width: 100%;
+    min-height: 50px;
+    position: fixed;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: black;
+}
+
+
+.header-conteiner {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category a {
+    margin: 0px 5px;
+}
+.logo-image  {
+    width: 100px;
+    height: auto;
+    size: cover;
+}
+
+.menu-icons img {
+    width: 20px;
+    height: auto;
+    margin: 0px 5px;
+}
